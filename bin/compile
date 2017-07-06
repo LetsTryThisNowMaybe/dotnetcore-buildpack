@@ -18,7 +18,7 @@ source $BUILDPACK_DIR/bin/util
 
 export_env_dir ${ENV_DIR}
 
-: ${LIBUV_VERSION:="1.11.0"}
+: ${LIBUV_VERSION:="1.13.0"}
 : ${NODEJS_VERSION:="6.10.0"}
 : ${DOTNET_SDK_VERSION:="2.0.0-preview1-005977"}
 : ${DOTNET_RUNTIME_VERSION:="2.0.0-preview1-002111-00"}
